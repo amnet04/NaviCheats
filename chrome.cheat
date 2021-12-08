@@ -1,1 +1,6 @@
-% GoogleChrome Browser
+% GoogleChrome, Browser
+
+# Open new window
+Ctrl+N
+
+$ window: Google Chrome Window Ops | awk '{print $NF}'
