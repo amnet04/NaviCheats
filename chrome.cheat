@@ -3,4 +3,13 @@
 # Open new window
 Ctrl+N
 
-$ window: Google Chrome Window Ops | awk '{print $NF}'
+# Open new window in private mode
+Ctrl+Shift+N
+
+# Open new tab
+Ctlr+T
+
+lkdsjfs ;dlkjfds;kjdsl;k fjsdl;
+dskl fjsd;lkfj ;lsakj
+sdk fj;dslkfj sd;lfkj
+ds; fkjsd;lfk js;dlkfj
