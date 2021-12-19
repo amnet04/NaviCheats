@@ -1,0 +1,25 @@
+% GoogleChrome, Browser
+
+# Reload awesome
+Ctrl + Super + r
+
+# Quit awesome
+Shift + Super + q
+
+# Toggle wibox
+Super + b
+
+# Show help
+Super + s
+
+# Show main menu
+Super + w
+
+# Lua prompt
+Super + x
+
+# Focus next client
+Alt + j
+
+# Focus previous client
+Alt + k
