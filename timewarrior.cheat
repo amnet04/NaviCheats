@@ -1,0 +1,28 @@
+% Timewarrior, productivity
+
+# Show version or help
+timew [-version|-help]
+
+# Display help
+help <command>|interval|hints|date|duration
+
+# Get and set configuration
+config[<name> <value>|'']
+
+# Display configuration
+show
+
+# Start time tracking
+start [<date>] [<tag>...]
+
+# Stop time tracking
+stop [<date>] [<tag>..]
+
+# Add tracked time in the Past
+track <range> [<tag>...]
+
+# Cancel time tracking
+cancel
+
+# resume tracking
+continue [<id>|<tag>...] [<datetime>|<range>]
