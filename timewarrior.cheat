@@ -99,21 +99,6 @@ extensions
 # Show diagnostic information
 diagnostics
 
-#Control Hints
-:quiet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Turns o all feedback. For automation
-:debug . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Runs in debug mode, shows many runtime details
-:yes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Overrides conrmation by answering 'yes' to the questions
-:color . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Force color on, even if not connected to a TTY
-:nocolor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Force color o, even if connected to a TTY
-:blank . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Leaves tracked time out of a report
-:fill . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Expand time to ll surrounding available gap
-:adjust . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Automatically correct overlaps
-:ids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Displays interval ID numbers in the summary report
-
-
-
-
-
-
-
+# Turns o all feedback. For automation
+:quiet
 
