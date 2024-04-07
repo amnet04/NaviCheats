@@ -26,3 +26,94 @@ cancel
 
 # resume tracking
 continue [<id>|<tag>...] [<datetime>|<range>]
+
+# Delete intervals
+delete <id>
+
+# Change interval start-time
+move <id> <date>
+
+# Defer the end date of a closed interval
+lengthen <id>... <duration>
+
+# Advance the end date of a closed interval
+shorten <id>... <duration>
+
+# Change the duration of a closed interval
+resize <id>... <duration>
+
+# Change the start or end date of an interval
+modify (start|end) <id> <date> 
+
+# Split into two equal intervals 
+split <id>
+
+# Joins two intervals to one
+join <id> <id>
+
+# Revert interval aecting commands
+Undo
+
+# Add an annotation to an interval
+annotate [<id>...] <annotation>
+
+# Add a tag to an interval
+tag [<id>...] <tag>
+
+# Remove a tag from an interval
+untag [<id>...] <tag>
+
+# Display a list of tags
+tags [<range>]
+
+# Summary for the day
+day [<range>] [<tag>...]
+
+# Summary for the week
+week [<range>] [<tag>...]
+
+#Summary for the month
+month [<range>] [<tag>...] 
+
+# Display a summary report
+summary [<range>] [<tag>...]
+
+# Run an extension report
+report <report> [<range>] [<tag>...]
+
+# export tracked time in JSON
+export [ <id>... | ([<range>] [<tag>...]) ]
+
+# Display DOM values
+get <DOM>
+
+# Adjust intervals to ll in surrounding gap
+fill <id>
+
+# Display time tracking gaps
+gaps [<range>] [<tag>...]
+
+# List available extensions
+extensions
+
+# Show diagnostic information
+diagnostics
+
+#Control Hints
+:quiet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Turns o all feedback. For automation
+:debug . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Runs in debug mode, shows many runtime details
+:yes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Overrides conrmation by answering 'yes' to the questions
+:color . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Force color on, even if not connected to a TTY
+:nocolor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Force color o, even if connected to a TTY
+:blank . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Leaves tracked time out of a report
+:fill . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Expand time to ll surrounding available gap
+:adjust . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Automatically correct overlaps
+:ids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Displays interval ID numbers in the summary report
+
+
+
+
+
+
+
+
